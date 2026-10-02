@@ -1,0 +1,27 @@
+# This file was created Thu Sep 17 12:08:49 2026
+# Created by:
+#            :-) GROMACS - gmx principal, 2025.2-Ubuntu_2025.2_1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/ann_hater/Documents/University/M2/Project files/02.Advanced_MD
+# Command line:
+#   gmx principal -f md_100.gro -s md_100.tpr
+# gmx principal is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "Principal axis 1 (major axis)"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Component (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "X component"
+@ s1 legend "Y component"
+@ s2 legend "Z component"
+   0.0000000000       -0.5025726557     0.3564260900     0.7876427770
