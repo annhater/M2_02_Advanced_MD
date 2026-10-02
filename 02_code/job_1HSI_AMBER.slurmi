@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#SBATCH -o 1HSI_AMBER_V0_replicate_1micro.slurmo     # Standard 
+#SBATCH --job-name=V0_1hSI_AMBER               # Job name
+#SBATCH -c 5
+#SBATCH -A hiv
+#SBATCH --gres=gpu:1
+#SBATCH -w gpu-node18
+################################################################################
+
+./1HSI_AMBER_simu.sh
