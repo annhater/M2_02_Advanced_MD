@@ -1,1 +1,7 @@
-/01_data
+01_data/
+*.xtc
+*.trr
+*.edr
+*.tpr
+*.cpt
+#*#
